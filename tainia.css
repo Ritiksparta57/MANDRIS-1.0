@@ -209,8 +209,9 @@
   }
 @media screen and (max-width:768px){
     #frame img{
-      max-width:60vw;
       min-width:30vw;
+      max-width:60vw;
+        margin:0;
     }
   }
   
