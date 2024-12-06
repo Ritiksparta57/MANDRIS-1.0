@@ -207,6 +207,12 @@
   #frame img:hover{
     opacity:80%;
   }
+@media screen and (max-width:768px){
+    #frame img{
+      max-width:60vw;
+      min-width:30vw;
+    }
+  }
   
   #frame input[type=radio] {
       display: none;
@@ -218,7 +224,6 @@
   }
   
   #slides {
-     /* padding: 10px;*/
       position: relative;
       z-index: 1;
   }
